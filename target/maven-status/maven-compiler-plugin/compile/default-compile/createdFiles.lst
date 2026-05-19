@@ -1,8 +1,11 @@
 com/device/config/model/ConfigVersion.class
+com/device/config/controller/DeviceTypeController.class
 com/device/config/model/Device.class
 com/device/config/IndustrialDeviceConfigApiApplication.class
 com/device/config/model/DeviceType.class
+com/device/config/service/DeviceTypeService.class
 com/device/config/model/ConfigVersion$Status.class
 com/device/config/controller/HealthController.class
+com/device/config/dto/DeviceTypeRequest.class
 com/device/config/controller/TestController.class
 com/device/config/repository/DeviceTypeRepository.class
