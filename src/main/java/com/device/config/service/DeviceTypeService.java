@@ -6,6 +6,8 @@ import com.device.config.repository.DeviceTypeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class DeviceTypeService {
@@ -16,5 +18,9 @@ public class DeviceTypeService {
         dt.setName(request.getName());
         dt.setSchemaJson(request.getSchemaJson());
         return repository.save(dt);
+    }
+
+    public List<DeviceType> getAll() {
+        return repository.findAll();
     }
 }

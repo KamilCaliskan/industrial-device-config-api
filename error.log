@@ -1,0 +1,62 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.device.config:industrial-device-config-api[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding industrial-device-config-api 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot:3.2.0:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mindustrial-device-config-api[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mindustrial-device-config-api[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mindustrial-device-config-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 9 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mindustrial-device-config-api[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/kali01/Desktop/industrial-device-config-api/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mindustrial-device-config-api[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot:3.2.0:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mindustrial-device-config-api[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot:3.2.0:run[m [1m(default-cli)[m @ [36mindustrial-device-config-api[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-05-20T06:20:26.157+02:00  INFO 39843 --- [           main] d.c.IndustrialDeviceConfigApiApplication : Starting IndustrialDeviceConfigApiApplication using Java 17 with PID 39843 (/home/kali01/Desktop/industrial-device-config-api/target/classes started by kali01 in /home/kali01/Desktop/industrial-device-config-api)
+2026-05-20T06:20:26.164+02:00  INFO 39843 --- [           main] d.c.IndustrialDeviceConfigApiApplication : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T06:20:26.872+02:00  INFO 39843 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T06:20:26.928+02:00  INFO 39843 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2026-05-20T06:20:27.336+02:00  INFO 39843 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T06:20:27.345+02:00  INFO 39843 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T06:20:27.345+02:00  INFO 39843 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-20T06:20:27.389+02:00  INFO 39843 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T06:20:27.390+02:00  INFO 39843 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1148 ms
+2026-05-20T06:20:27.511+02:00  INFO 39843 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T06:20:27.552+02:00  INFO 39843 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-05-20T06:20:27.583+02:00  INFO 39843 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T06:20:27.750+02:00  INFO 39843 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T06:20:27.770+02:00  INFO 39843 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T06:20:27.937+02:00  INFO 39843 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74697863
+2026-05-20T06:20:27.938+02:00  INFO 39843 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T06:20:27.969+02:00  WARN 39843 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T06:20:28.708+02:00  INFO 39843 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T06:20:28.818+02:00  INFO 39843 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T06:20:29.048+02:00  WARN 39843 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T06:20:29.311+02:00  INFO 39843 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-05-20T06:20:29.320+02:00  INFO 39843 --- [           main] d.c.IndustrialDeviceConfigApiApplication : Started IndustrialDeviceConfigApiApplication in 3.672 seconds (process running for 4.174)
+2026-05-20T06:26:25.966+02:00  INFO 39843 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T06:26:25.967+02:00  INFO 39843 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T06:26:25.968+02:00  INFO 39843 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
