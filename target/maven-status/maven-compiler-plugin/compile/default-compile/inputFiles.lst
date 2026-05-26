@@ -1,10 +1,12 @@
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/model/Device.java
-/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/DeviceTypeRepository.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/service/DeviceTypeService.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/model/DeviceType.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/DeviceTypeController.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/repository/DeviceTypeRepository.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/TestController.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/model/ConfigVersion.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/exception/GlobalExceptionHandler.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/exception/InvalidJsonException.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/IndustrialDeviceConfigApiApplication.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/dto/DeviceTypeRequest.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/HealthController.java

@@ -1,18 +1,16 @@
 package com.device.config.dto;
 
 import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
 
+@Data
 public class DeviceTypeRequest {
-    @NotBlank
+    @NotBlank(message = "name is required")
     private String name;
 
-    @NotBlank
+    @NotBlank(message = "schemaJson is required")
     private String schemaJson;
-
-    // Getters and setters
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-
-    public String getSchemaJson() { return schemaJson; }
-    public void setSchemaJson(String schemaJson) { this.schemaJson = schemaJson; }
+}
+public String getSchemaJson() {
+    return this.schemaJson;
 }
