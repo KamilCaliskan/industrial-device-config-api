@@ -1,7 +1,7 @@
 package com.device.config.service;
 
 import com.device.config.dto.DeviceTypeRequest;
-import com.device.config.entity.DeviceType; // Assuming standard entity packaging
+import com.device.config.model.DeviceType;
 import com.device.config.repository.DeviceTypeRepository; // Assuming standard repository packaging
 import com.device.config.exception.InvalidJsonException;
 import com.fasterxml.jackson.core.JsonProcessingException;

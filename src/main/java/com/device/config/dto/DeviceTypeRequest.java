@@ -10,7 +10,6 @@ public class DeviceTypeRequest {
 
     @NotBlank(message = "schemaJson is required")
     private String schemaJson;
-}
-public String getSchemaJson() {
-    return this.schemaJson;
+
+    
 }
