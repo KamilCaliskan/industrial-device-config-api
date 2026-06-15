@@ -4,7 +4,6 @@
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/exception/InvalidConfigException.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/TestController.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/HealthController.java
-/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/InvalidConfigException.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/model/DeviceType.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/DeviceTypeController.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/repository/DeviceTypeRepository.java
