@@ -12,6 +12,7 @@ com/device/config/exception/InvalidConfigException.class
 com/device/config/model/ConfigVersion$Status.class
 com/device/config/controller/HealthController.class
 com/device/config/exception/GlobalExceptionHandler.class
+com/device/config/service/ConfigVersionService.class
 com/device/config/controller/TestController.class
 com/device/config/repository/DeviceTypeRepository.class
 com/device/config/controller/DeviceConfigController.class
