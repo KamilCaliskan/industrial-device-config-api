@@ -2,8 +2,12 @@
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/model/Device.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/service/DeviceTypeService.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/exception/InvalidConfigException.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/DeviceController.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/TestController.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/repository/ConfigVersionRepository.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/dto/DeviceRequest.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/HealthController.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/repository/DeviceRepository.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/model/DeviceType.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/service/ConfigVersionService.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/DeviceTypeController.java
@@ -11,7 +15,9 @@
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/validation/JsonSchemaValidator.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/model/ConfigVersion.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/exception/GlobalExceptionHandler.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/exception/ResourceNotFoundException.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/exception/InvalidJsonException.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/IndustrialDeviceConfigApiApplication.java
+/home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/service/DeviceService.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/dto/DeviceTypeRequest.java
 /home/kali01/Desktop/industrial-device-config-api/src/main/java/com/device/config/controller/DeviceConfigController.java

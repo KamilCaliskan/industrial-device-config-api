@@ -5,7 +5,7 @@ import com.device.config.model.ConfigVersion;
 import com.device.config.model.Device;
 import com.device.config.repository.ConfigVersionRepository;
 import com.device.config.repository.DeviceRepository;
-import com.device.config.validator.JsonSchemaValidator;
+import com.device.config.validation.JsonSchemaValidator;
 import com.fasterxml.jackson.databind.JsonNode;
 
 import jakarta.transaction.Transactional;
@@ -58,8 +58,8 @@ public class ConfigVersionService {
 
         configVersion.setDevice(device);
         configVersion.setVersion(nextVersion);
-        configVersion.setConfigData(configData);
-        configVersion.setStatus("DRAFT");
+        configVersion.setConfigData(configData.toString());
+        configVersion.setStatus(ConfigVersion.Status.DRAFT);
 
         // Step 6: Save and return
         return configVersionRepository.save(configVersion);

@@ -1,10 +1,12 @@
 com/device/config/exception/InvalidJsonException.class
 com/device/config/model/ConfigVersion.class
 com/device/config/service/DeviceTypeService.class
+com/device/config/service/DeviceService.class
 com/device/config/validation/JsonSchemaValidator.class
-com/device/config/dto/DeviceTypeRequest.class
+com/device/config/repository/DeviceRepository.class
+com/device/config/controller/DeviceController.class
 com/device/config/dto/CreateConfigVersionRequest.class
-com/device/config/controller/DeviceTypeController.class
+com/device/config/dto/DeviceRequest.class
 com/device/config/model/Device.class
 com/device/config/IndustrialDeviceConfigApiApplication.class
 com/device/config/model/DeviceType.class
@@ -14,5 +16,9 @@ com/device/config/controller/HealthController.class
 com/device/config/exception/GlobalExceptionHandler.class
 com/device/config/service/ConfigVersionService.class
 com/device/config/controller/TestController.class
-com/device/config/repository/DeviceTypeRepository.class
 com/device/config/controller/DeviceConfigController.class
+com/device/config/dto/DeviceTypeRequest.class
+com/device/config/repository/ConfigVersionRepository.class
+com/device/config/controller/DeviceTypeController.class
+com/device/config/exception/ResourceNotFoundException.class
+com/device/config/repository/DeviceTypeRepository.class
