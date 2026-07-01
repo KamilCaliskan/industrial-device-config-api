@@ -59,5 +59,18 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(body, org.springframework.http.HttpStatus.CONFLICT);
     }
 
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<Object> handleIllegalArgument(IllegalArgumentException ex) {
+        Map<String, Object> body = new LinkedHashMap<>();
+        body.put("timestamp", LocalDateTime.now());
+        body.put("status", HttpStatus.CONFLICT.value());
+        body.put("error", "Conflict");
+        
+        // Formatted to use your explicit business error message
+        body.put("message", "Serial number already exists");
+
+        return new ResponseEntity<>(body, HttpStatus.CONFLICT);
+    }
+
 
 }
